@@ -92,12 +92,27 @@ dotnet build
 3. Press `F5` or click the Run button
 4. The application will launch and open Swagger UI in your browser
 
-### Option 2: Using .NET CLI
+### Option 2: Using .NET CLI (Development Mode)
 
 ```bash
 cd PurchaseTransactions.API
 dotnet run
 ```
+
+### Option 3: Using Published Release
+
+1. **Download the latest release** from [GitHub Releases](https://github.com/manishbsr/CorporatePayments/releases)
+
+2. **Extract the release files** to your desired location
+
+3. **Run the application:**
+
+   On **Windows**:
+   ```powershell
+   PurchaseTransactions.API.exe
+   ```
+
+4. The application will start in Release mode (optimized performance)
 
 The API will be available at:
 - **HTTP**: `http://localhost:5182`
