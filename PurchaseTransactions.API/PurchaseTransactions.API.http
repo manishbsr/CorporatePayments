@@ -1,0 +1,25 @@
+@PurchaseTransactions.API_HostAddress = http://localhost:5182
+
+### Search Purchase Transactions
+GET {{PurchaseTransactions.API_HostAddress}}/api/purchasetransactions?fromCurrency=USD&toCurrency=EUR&amountInSourceCurrency=100
+Accept: application/json
+
+###
+
+### Get Purchase Transaction by ID
+GET {{PurchaseTransactions.API_HostAddress}}/api/purchasetransactions/123?targetCurrency=EUR
+Accept: application/json
+
+###
+
+### Create Purchase Transaction
+POST {{PurchaseTransactions.API_HostAddress}}/api/purchasetransactions
+Content-Type: application/json
+
+{
+  "fromCurrency": "USD",
+  "toCurrency": "EUR",
+  "amountInSourceCurrency": 100.50
+}
+
+###

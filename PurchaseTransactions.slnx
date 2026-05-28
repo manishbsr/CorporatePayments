@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="tests/PurchaseTransactions.API.IntegrationTest/PurchaseTransactions.API.IntegrationTest.csproj" Id="f6b0ae95-3c24-4548-b3ae-055ea57264dd" />
+    <Project Path="tests/PurchaseTransctions.UnitTest/PurchaseTransctions.UnitTest.csproj" Id="953fd996-4922-4219-bdf7-4987b2e80c28" />
+  </Folder>
+  <Project Path="PurchaseTransactions.API/PurchaseTransactions.API.csproj" />
+  <Project Path="PurchaseTransactions.Application/PurchaseTransactions.Application.csproj" />
+  <Project Path="PurchaseTransactions.Domain/PurchaseTransactions.Domain.csproj" />
+  <Project Path="PurchaseTransactions.Infrastructure/PurchaseTransactions.Infrastructure.csproj" />
+</Solution>
